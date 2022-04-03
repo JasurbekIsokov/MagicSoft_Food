@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto;
+  text-align: center;
+  width: 80vw;
+  height: 70vh;
+  margin: 50px auto;
+}
+
+.search {
+  width: 50%;
+  padding: 12px;
+  border: 2px solid chocolate;
+  border-radius: 30px 0 0 30px;
+  color: chocolate;
+  font-size: 20px;
+  outline: none;
+}
+
+.search::placeholder {
+  color: chocolate;
+}
+
+.icon {
+  color: #fff;
+  padding: 9px 12px 14px 10px;
+  font-size: 25px;
+  border-radius: 0 30px 30px 0;
+  background-color: chocolate;
+  margin-left: -4.5px;
+  cursor: pointer;
+}
+
+p {
+  font-size: 24px;
+}
+
+.par1,
+.par4 {
+  font-size: 36px;
+}
+
+.par5 {
+  color: chocolate;
+  font-size: 30px;
+}
+
+.par2 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.par3 {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.cards {
+  width: 80%;
+
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.card {
+  height: 400px;
+  width: 95%;
+  border-radius: 10px;
+  box-shadow: 0 2px 9px 2px #888;
+  margin: 0 10px 20px 0;
+  text-align: center;
+}
+
+.card:hover {
+  transform: scale(1.009);
+  box-shadow: 0 2px 9px 2px #000;
+  transition: all 0.5s;
+}
+
+.picture {
+  width: 100%;
+  height: 80%;
+}
+
+.btn {
+  padding: 10px 30px;
+  border: none;
+  border-radius: 50px;
+  background-color: chocolate;
+  color: #fff;
+}
+
+.food_name {
+  margin: 10px;
+}
