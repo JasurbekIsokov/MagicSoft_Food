@@ -31,6 +31,7 @@
 .icon {
   color: #fff;
   padding: 9px 12px 14px 10px;
+  border: none;
   font-size: 25px;
   border-radius: 0 30px 30px 0;
   background-color: chocolate;
@@ -105,4 +106,39 @@ img {
 
 .food_name {
   margin: 10px;
+}
+
+.recipe {
+  padding: 2rem;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+  height: 70vh;
+  background-color: #ff5b03;
+  color: white;
+  overflow: auto;
+}
+.close-recipe {
+  font-size: 2rem;
+  top: 5px;
+  position: absolute;
+  right: 10px;
+  background-color: inherit;
+  border: none;
+  color: white;
+}
+
+.recipe-category {
+  padding: 0.2rem 1rem;
+  background-color: #ffffff;
+  color: #ff5b03;
+  display: inline-block;
+  margin: 0.3rem;
+}
+
+.text {
+  font-size: 1.3rem;
+  margin-top: 0.5rem;
 }
